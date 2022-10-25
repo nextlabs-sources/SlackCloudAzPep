@@ -1,0 +1,69 @@
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 10px 0 0 0;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.justify-content-center {
+    -ms-flex-pack: center!important;
+    justify-content: center!important;
+}
+
+.section1 {
+    text-align: center;
+    background-color: #F1F2F2;
+}
+
+.section1-content {
+    background-image: url("img/cloudaz/background/main_bg.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.image-panel {
+    margin-top: 10em;
+    width: 25em;
+    height: 7em;
+}
+
+.responsive-image {
+    width: 100%;
+    height: auto;
+}
+
+.text-panel {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 1.5em;
+    color: black;
+}
+
+.button-panel {
+    margin-bottom: 20em;
+}
+
+.goto-button {
+    background: #FF664A;
+    color: white;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 1.5em;
+
+    height: 3em;
+    padding-left:1em;
+    padding-right:1em;
+    /*
+    width: 15em;
+    */
+
+}

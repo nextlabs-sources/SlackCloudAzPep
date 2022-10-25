@@ -1,0 +1,153 @@
+@import 'package:angular_components/css/material/material';
+
+.blue {
+  color: $mat-blue;
+}
+
+a {
+ color: black;
+}
+
+
+.img-logo {
+  padding-top: 0.5em;
+  width: 10em;
+}
+
+.img-logo-2 {
+  padding-top: 0.5em;
+  width: 8em;
+}
+
+.top-logo {
+  height: 60px;
+}
+
+.cloudaz-signup {
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 18px;
+  color: #fff;
+  background-color: rgba(236,99,75,1);
+  border-color: rgba(239, 63, 36, 1);
+  border-radius: 5px;
+  padding: 0.3em 1.5em 0.3em 1.5em;
+}
+
+.cloudaz-logo {
+/*
+  background: url("img/cloudaz/cloudaz4slack_logo.svg") no-repeat 5px 10px;
+*/
+  width: 142px;
+  height: 48px;
+  display: inline-block;
+  background-size: 90%;
+}
+
+
+#main-content {
+    width: 100%;
+    /*
+    padding: 5px 15px 5px 15px;
+    background-color: #005072;
+    */
+    margin-right: auto;
+    margin-left: auto;
+    background-color: white;
+}
+
+#main-footer {
+    width: 100%;
+    padding: 5px 15px 5px 15px;
+    height: 8em;
+    background-color: #005072;
+}
+
+.footer-content-1 {
+    width: 50%;
+    margin: auto;
+    padding-top: 1.5em;
+    text-align: center;
+}
+
+.footer-padding {
+    margin-right: 2.5em;
+}
+
+.footer-icon-padding {
+    margin-left: 0.6em;
+}
+
+.footer-privacy {
+    margin-top: 1em;
+
+    text-align: center;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 1em;
+    color: #FFFFFF;
+}
+
+.footer-vertical-divider {
+    margin: 0 1.5em 0 1.5em;
+    width: 10em;
+    border-left: 0.1em solid #000;
+    height: 2em;
+    border-color: white;
+}
+
+
+#main-footer-bar {
+    width: 100%;
+    padding: 5px 15px 5px 15px;
+    height: 2.8em;
+    background-color: #36424A;
+}
+
+.footer-bar-content-1 {
+    width: 50%;
+    margin: auto;
+    padding-top: 0.5em;
+
+    text-align: center;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 1em;
+    color: #FFFFFF;
+}
+
+.cloudaz-slogan {
+    margin: 0 0 0 5em;
+    color: black;
+}
+
+.vertical-divider {
+    margin-left: 10px;
+    width: 25px;
+    border-left: 1px solid #000;
+    height:48px
+}
+
+.material-header {
+    background-color: white;
+}
+
+.material-header-row {
+    padding-left: 50px;
+}
+
+.nxl-menu-col {
+    display: flex;
+    justify-content: flex-end;
+}
+
+material-menu {
+    color: black;
+    padding-top: 1.5em;
+}
+

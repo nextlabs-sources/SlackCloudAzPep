@@ -1,0 +1,47 @@
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 10px 0 0 0;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.panel-text-container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5em;
+}
+
+.content-text {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.0em;
+    text-align: justify;
+}
+
+.content-address {
+    padding-left: 5em;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.0em;
+    text-align: justify;
+}
+
+h1 {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.8em;
+}
+
+h2 {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.5em;
+}

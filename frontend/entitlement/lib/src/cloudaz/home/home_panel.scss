@@ -1,0 +1,211 @@
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 10px 0 0 0;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.justify-content-center {
+    -ms-flex-pack: center!important;
+    justify-content: center!important;
+}
+
+.panel-text-1 {
+    width: 50em;
+    text-align: center;
+    padding-bottom: 3em;
+/*
+    padding-left: 50px;
+    padding-right: 50px;
+*/
+}
+
+.section1 {
+    text-align: center;
+    background-color: #005072;
+}
+
+.section1-content {
+    background-image: url("img/cloudaz/background/main_bg.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.section1-left {
+    margin-top: 10em;
+    margin-right: 2em;
+    width: 22em;
+    height: 31em;
+    font-family: Lato;
+    font-style: normal;
+    color: white;
+}
+
+.section1-left-header {
+    margin: 0 0 0 0;
+    font-size: 2em;
+    color: white;
+    text-align: left;
+    line-height: 120%;
+}
+
+.section1-left-content {
+    margin: 1em 0 0 0;
+    font-size: 1em;
+    color: white;
+    text-align: left;
+}
+
+.home-image {
+    width: 33em;
+    height: 20em;
+}
+
+.section1-left-button {
+    margin: 1em 0 2em 1em;
+    height: 5em;
+}
+
+.section1-right {
+    margin-top: 9em;
+    width: 35em;
+    height: 31em;
+    padding: 2em 2em 2em 2em
+}
+
+.section2 {
+    text-align: center;
+    background: white;
+    color: black;
+    padding-bottom: 8em;
+}
+
+.section2-header {
+    text-align: center;
+    padding-top: 8em;
+
+}
+
+.section2-header-text {
+    margin-bottom: 0;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 2em;
+}
+
+.feature-image {
+    width: 10em;
+    height: 10em;
+}
+
+.section2-content {
+
+}
+
+.section2-content-h1 {
+    font-weight: bold;
+    font-size: 2em;
+    padding: 0;
+    margin: 0;
+}
+
+.section2-content-part1 {
+    width: 20em;
+}
+
+.section2-content-part2 {
+    width: 20em;
+
+}
+
+.section2-content-part3 {
+    width: 20em;
+
+}
+
+.vertical-divider {
+    margin-left: 1.5em;
+    width: 3em;
+    border-left: 0.05em solid #000;
+    height:20em
+}
+
+.section3 {
+    text-align: center;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+
+    background: #F1F2F2;
+    color: black;
+}
+
+.section3-bg-content {
+    background-image: url("img/cloudaz/background/service_bg.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.section3-left {
+    margin-top: 10em;
+    margin-right: 2em;
+    width: 26em;
+    height: 27em;
+    font-family: Lato;
+    font-style: normal;
+    color: black;
+}
+
+.section3-left-header {
+    margin: 0 0 0 0;
+    font-weight: bold;
+    font-size: 2em;
+    color: black;
+    text-align: left;
+    line-height: 120%;
+}
+
+.section3-left-content {
+    margin: 1em 0 0 0;
+    font-size: 1em;
+    color: black;
+    text-align: left;
+}
+
+.section3-left-button {
+    margin: 1em 0 2em 0;
+    height: 5em;
+    text-align: left;
+}
+
+.section3-right {
+    margin-top: 5em;
+    width: 32em;
+    height: 31em;
+    padding: 2em 2em 2em 2em
+}
+
+.cloudaz-button {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 1em;
+    text-align: center;
+    background-color: rgba(236,99,75,1);
+    color: #FFFFFF;
+    height: 2.5em;
+}
+
+h1 {
+    font-size: 2.8em;
+}

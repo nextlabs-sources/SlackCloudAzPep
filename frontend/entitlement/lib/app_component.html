@@ -1,0 +1,76 @@
+<!-- START NAV -->
+<nav class="navbar">
+    <div class="container">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="https://www.nextlabs.com">
+                <img class="top-logo" src="img/cloudaz/nextlabs_logo.svg" alt="NextLabs">
+            </a>
+            <a class="navbar-item" [routerLink]="RoutePaths.cloudaz.toUrl()">
+                <img class="top-logo" src="img/cloudaz/cloudaz4slack_logo.svg" alt="CloudAz for Slack"/>
+            </a>
+
+            <span class="navbar-burger burger" data-target="navbarMenu">
+            <span></span>
+            <span></span>
+            <span></span>
+            </span>
+        </div>
+        <div id="navbarMenu" class="navbar-menu">
+            <div class="navbar-end">
+                <a class="navbar-item is-active">
+                    <input type="button" class="cloudaz-signup"
+                        value="Signup for CloudAz" 
+                        onclick="window.open('https://www.cloudaz.com/index.html#/signup', '_blank')" /> 
+                </a>
+            </div>
+        </div>
+    </div>
+</nav>
+<!-- END NAV -->
+
+<section>
+    <!-- Content here -->
+    <div id="main-content">
+        <router-outlet [routes]="routes.all"></router-outlet>
+    </div>
+</section>
+
+<footer id="main-footer">
+    <div class="footer-content-1">
+        <div class="">
+            <span class="footer-padding">
+                <a href="https://www.cloudaz.com" target="_blank">
+                    <img width="84" src="img/cloudaz/cloudaz_footer.png" alt="cloudaz" />
+                </a>
+            </span>
+            <span class="footer-icon-padding">
+                <a href="https://twitter.com/nextlabs" target="_blank">
+                    <img width="26" src="img/cloudaz/twitter_footer.png" alt="twitter" />
+                </a>
+            </span>
+            <span class="footer-icon-padding">
+                <a href="https://www.linkedin.com/company/nextlabs" target="_blank">
+                    <img width="26" src="img/cloudaz/linkedin_footer.png" alt="linkedin" />
+                </a>
+            </span>
+            <span class="footer-icon-padding">
+                <a href="https://www.nextlabs.com" target="_blank">
+                    <img width="26" src="img/cloudaz/nextlabs_footer.png" alt="nextlabs" />
+                </a>
+            </span>
+        </div>
+        <div class="footer-privacy">
+            <a [routerLink]="RoutePaths.help.toUrl()">Contact Us</a>
+            <span class="footer-vertical-divider"></span>
+            <a [routerLink]="RoutePaths.privacy.toUrl()">Privacy Policy</a>
+        </div>
+
+    </div>
+
+</footer>
+<footer id="main-footer-bar">
+    <div class="footer-bar-content-1">
+        <p>Copyright © 2021 NextLabs, Inc. All rights reserved.</p>
+    </div>
+</footer>
+
